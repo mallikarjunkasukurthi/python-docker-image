@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'docker-hub'
-        repository: 'mallikarjunaraok/python:0.0.1.release'
+        repository: 'mallikarjunaraok / pythondockerimage:0.0.1'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
